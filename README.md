@@ -244,12 +244,9 @@ Key flags: `--ckpt_step`, `--omega`, `--num_steps`, `--integration_method` (`eul
 
 This codebase is built upon and borrows heavily from the
 [**conditional-flow-matching**](https://github.com/atong01/conditional-flow-matching)
-repository by Alexander Tong and Kilian Fatras (MIT License).  
-We gratefully acknowledge their work on the TorchCFM library, which provided the
+repository by Alexander Tong and Kilian Fatras (MIT License). We gratefully acknowledge their work on the TorchCFM library, which provided the
 CFM training objectives, UNet backbone, and OT-plan sampler used throughout this project.
-
-The SPADE-conditioned UNet (`unet_sdm_CrackSDM_v3_encoder.py`) and the
-classifier-free guidance training scheme for SynFlow are original contributions of this paper.
+The SPADE-conditioned UNet (`unet_sdm_CrackSDM_v3_encoder.py`) and the classifier-free guidance training scheme for SynFlow are original contributions of this paper.
 
 ---
 
