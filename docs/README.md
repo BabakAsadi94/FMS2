@@ -26,7 +26,7 @@ GitHub will publish the page at a URL like:
 
 - `index.html`: page content.
 - `styles.css`: visual styling.
-- `assets/fms2-eccv-paper.pdf`: downloadable paper.
+- `assets/FMS2.pdf`: downloadable paper.
 - `assets/fms2-method-figure.png`: method figure used in the hero section.
 - `assets/fms2-method-figure.pdf`: source method figure.
 - `assets/fms2-architecture.png`: architecture figure rendered from Fig2.
