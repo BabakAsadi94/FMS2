@@ -1,0 +1,15 @@
+torch==2.8.0
+torchvision==0.23.0
+torchdyn==1.0.6
+torchdiffeq==0.2.5
+POT==0.9.5
+
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.0.2
+matplotlib==3.10.6
+Pillow==11.3.0
+tqdm==4.67.1
+
+absl-py==2.3.1

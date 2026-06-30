@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 BabakAsadi94
+Copyright (c) 2024 Peiyang Wu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,47 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+This project incorporates code from the following third-party repository,
+which is also distributed under the MIT License:
+
+  conditional-flow-matching
+  Copyright (c) 2023 Alexander Tong
+  https://github.com/atong01/conditional-flow-matching
+
+  Specifically, the following components are adapted from or directly based on
+  that repository:
+    - torchcfm/conditional_flow_matching.py   (CFM training objectives)
+    - torchcfm/optimal_transport.py           (OT-plan sampler)
+    - torchcfm/utils.py                       (utility functions)
+    - torchcfm/models/models.py               (MLP baselines)
+    - torchcfm/models/unet/unet.py            (base OpenAI UNet + wrapper)
+    - torchcfm/models/unet/unet_residal.py    (lightweight UNet variant)
+    - torchcfm/models/unet/nn.py              (conv helpers, normalization)
+    - torchcfm/models/unet/fp16_util.py       (FP16 conversion utilities)
+
+  The full MIT License text for conditional-flow-matching is reproduced below:
+
+  MIT License
+
+  Copyright (c) 2023 Alexander Tong
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
